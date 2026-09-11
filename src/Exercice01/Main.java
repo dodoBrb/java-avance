@@ -1,3 +1,5 @@
+package Exercice01;
+
 public class Main {
     public static void main(String[] args) {
         Livre livre1 = new Livre("Le Comte de Monte-Cristo", "Alexandre Dumas", 1234);
