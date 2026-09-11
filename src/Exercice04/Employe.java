@@ -2,8 +2,8 @@ package Exercice04;
 
 public class Employe {
 
-    private String nom;
-    private double salaireBase;
+    protected String nom;
+    protected double salaireBase;
 
     public Employe(String nom, double salaireBase) {
         this.nom = nom;

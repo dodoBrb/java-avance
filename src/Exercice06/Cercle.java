@@ -1,0 +1,14 @@
+package Exercice06;
+
+class Cercle extends Forme {
+    private double rayon;
+
+    public Cercle(double rayon) {
+        this.rayon = rayon;
+    }
+
+    @Override
+    public double aire() {
+        return Math.PI * rayon * rayon;
+    }
+}
