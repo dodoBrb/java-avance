@@ -26,7 +26,7 @@ public class Etudiant {
 
     @Override
     public String toString() {
-        return "Étudiant n°" + numeroEtudiant + " : " + nom + " (Moyenne : " + moyenne + "/20)";
+        return "Étudiant n°" + numeroEtudiant + " : " + nom + " (Moyenne : " + moyenne +")";
     }
 
     @Override

@@ -15,8 +15,8 @@ public class Main {
 
         Etudiant e1Copie = new Etudiant("E001", "Dorine (doublon)", 8.0);
 
+        System.out.println( e1.toString());
         System.out.println("e1.equals(e1Copie) : " + e1.equals(e1Copie));
-
         System.out.println("La liste contient-elle e1Copie ? " + promo.contains(e1Copie));
     }
 }
