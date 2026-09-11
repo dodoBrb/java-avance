@@ -15,9 +15,8 @@ public class Main {
         LocalDate fin3 = debut3.plusDays(5);
 
         Reservation[] reservations = {
-                new Reservation("Dupont", debut1, fin1),
-                new Reservation("Martin", debut2, fin2),
-                new Reservation("Bernard", debut3, fin3)
+                new Reservation("Rossignol", debut1, fin1),
+                new Reservation("Barbey", debut2, fin2)
         };
 
         for (Reservation res : reservations) {
@@ -26,7 +25,7 @@ public class Main {
         }
 
         try {
-            new Reservation("ClientInvalide", LocalDate.of(2026, 6, 10), LocalDate.of(2026, 6, 5));
+            new Reservation("Marchais", LocalDate.of(2026, 6, 10), LocalDate.of(2026, 6, 5));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
