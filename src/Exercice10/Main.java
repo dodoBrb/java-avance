@@ -4,9 +4,7 @@ public class Main {
     public static void main(String[] args) {
         CompteBancaire compte = new CompteBancaire("Juliette", 200.0);
         traiterRetrait(compte, 350.0);
-        System.out.println();
         traiterRetrait(compte, -50.0);
-        System.out.println();
         traiterRetrait(compte, 100.0);
     }
 
